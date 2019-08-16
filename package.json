@@ -1,6 +1,6 @@
 {
   "name": "jt-vconsole-webpack-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "基于 vConsole 的 Webpack 插件，根据环境区分是否加载 vConsole",
   "main": "index.js",
   "scripts": {
