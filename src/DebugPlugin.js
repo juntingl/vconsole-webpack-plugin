@@ -8,7 +8,7 @@ const itemToPlugin = (context, item, name) => {
   if(Array.isArray(item)) {
     return new MultiEntryPlugin(context, item, name);
   } else {
-    return SingleEntryPlugin(context, item, name);
+    return new SingleEntryPlugin(context, item, name);
   }
 }
 
