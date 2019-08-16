@@ -1,0 +1,20 @@
+{
+  "name": "jt-vconsole-webpack-plugin",
+  "version": "1.0.0",
+  "description": "基于 vConsole 的 Webpack 插件，根据环境区分是否加载 vConsole",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "vconsole"
+  ],
+  "author": "Junting",
+  "license": "MIT",
+  "dependencies": {
+    "vconsole": "^3.3.2",
+    "webpack": "^4.39.2"
+  }
+}
