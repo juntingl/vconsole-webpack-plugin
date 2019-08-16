@@ -8,7 +8,7 @@
 ## Install
 
 ```sh
-npm i debug-tool-webpack-plugin -D
+npm i jt-vconsole-webpack-plugin
 ```
 
 ## Author
