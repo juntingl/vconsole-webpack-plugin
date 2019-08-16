@@ -29,7 +29,7 @@ class DebugPlugin {
   apply(compiler) {
     compiler.hooks.entryOption.tap('vc-debug', (context, entry) => {
       const { enable } = this.options;
-      let vConsolePath = path.resolve('debug-tool-webpack-plugin/vConsole.js');
+      let vConsolePath = path.resolve('debug-tool-webpack-plugin/src/vConsole.js');
 
       if (enable) {
         // vConsole 路径依据各自项目路径情况进行处理
