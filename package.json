@@ -15,6 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "vconsole": "^3.3.2",
-    "webpack": "^4.39.2"
+    "webpack": "^5.75.0"
   }
 }
